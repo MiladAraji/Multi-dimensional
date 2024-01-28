@@ -1479,6 +1479,7 @@
             <Measure>
               <ID>Order ID</ID>
               <Name>Order ID</Name>
+              <AggregateFunction>Count</AggregateFunction>
               <Source>
                 <DataType>Integer</DataType>
                 <Source xsi:type="ColumnBinding">
@@ -1508,10 +1509,12 @@
                   <ColumnID>Quantity</ColumnID>
                 </Source>
               </Source>
+              <FormatString>#,#</FormatString>
             </Measure>
             <Measure>
               <ID>Unit Price</ID>
-              <Name>Unit Price</Name>
+              <Name>MIN Unit Price</Name>
+              <AggregateFunction>Min</AggregateFunction>
               <Source>
                 <DataType>Double</DataType>
                 <Source xsi:type="ColumnBinding">
@@ -1566,6 +1569,18 @@
                 <DataSize>4</DataSize>
                 <Source xsi:type="RowBinding">
                   <TableID>dbo_FactOrders</TableID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>Unit Price - Fact Orders</ID>
+              <Name>MAX Unit Price</Name>
+              <AggregateFunction>Max</AggregateFunction>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_FactOrders</TableID>
+                  <ColumnID>UnitPrice</ColumnID>
                 </Source>
               </Source>
             </Measure>

@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>/UCpysxRK2ELIauSKGbaX16BluQ=1/27/2024 9:07:45 PM1/27/2024 9:04:59 PMjIFTn6reUnp01lPnKZLip+hHWYc=1/27/2024 9:05:00 PM1/27/2024 9:04:59 PM</TimeStamp>
+        <TimeStamp>/vo+6p1BJ9aPWB5jJ5ezr3fYrRo=1/27/2024 9:33:43 PM1/27/2024 9:04:59 PMjIFTn6reUnp01lPnKZLip+hHWYc=1/27/2024 9:31:01 PM1/27/2024 9:04:59 PM</TimeStamp>
         <ID>
           <String>Sales</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-01-28T02:07:46.69Z</LastDeployed>
+  <LastDeployed>2024-01-28T02:33:43.906667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -360,6 +360,7 @@
         <Measure dwd:design-time-name="f6f0adca-c363-4018-b04a-6269a13307bf">
           <ID>Order ID</ID>
           <Name>Order ID</Name>
+          <AggregateFunction>Count</AggregateFunction>
           <Source dwd:design-time-name="3bd91dde-eba8-46ae-89e9-3b6513107918">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="298a1d02-c405-48a1-954e-79d4f1e4dae0">
@@ -389,10 +390,12 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,#</FormatString>
         </Measure>
         <Measure dwd:design-time-name="4bc0863b-94fa-40aa-9f21-10a643029f95">
           <ID>Unit Price</ID>
-          <Name>Unit Price</Name>
+          <Name>MIN Unit Price</Name>
+          <AggregateFunction>Min</AggregateFunction>
           <Source dwd:design-time-name="53097971-983e-4e46-a748-96180b4bac16">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="d358e3c8-e8ab-4388-aa70-44efbf10d262">
@@ -447,6 +450,18 @@
             <DataSize>4</DataSize>
             <Source xsi:type="RowBinding" dwd:design-time-name="9601a79c-ce02-4955-8a32-23d494d9250f">
               <TableID>dbo_FactOrders</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8d377597-7e42-48d7-82ea-b4ffd31fc932">
+          <ID>Unit Price - Fact Orders</ID>
+          <Name>MAX Unit Price</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="8df4edd8-2829-4544-9c76-049c54f33703">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="02dc3e68-c873-4f89-aa3c-32a6e295e527">
+              <TableID>dbo_FactOrders</TableID>
+              <ColumnID>UnitPrice</ColumnID>
             </Source>
           </Source>
         </Measure>
