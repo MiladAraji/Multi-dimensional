@@ -26,16 +26,58 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>4iLgaEL3slJd6FYw7bk9eLIY6kg=1/27/2024 6:57:36 PM1/27/2024 6:37:41 PM</TimeStamp>
+        <TimeStamp>gX8F3esGf8XDnnpfOtkGviKsHWs=1/27/2024 8:29:25 PM1/27/2024 6:37:41 PM</TimeStamp>
         <ID>
           <String>Northwind DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>T+/h7+49B+QbXW7GvrUo/jDOP/U=1/27/2024 7:19:24 PM1/27/2024 6:57:36 PM</TimeStamp>
+        <TimeStamp>mJMwsQCXypASe9b0RHv6uByBOR8=1/27/2024 8:45:34 PM1/27/2024 6:57:36 PM</TimeStamp>
         <ID>
           <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZkOis26o6HB0USo7W7QyZx0qwMA=1/27/2024 7:48:40 PM1/27/2024 7:28:16 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kdABmX3CpVBnwillva2fTBmED9o=1/27/2024 7:47:41 PM1/27/2024 7:35:42 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>llke6UdX8s/dvxOS/qDD12BDASY=1/27/2024 7:49:18 PM1/27/2024 7:49:18 PM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nO4YT83iFmFmY6xxFNeuT8f2bv8=1/27/2024 7:53:20 PM1/27/2024 7:53:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Shipper</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>n+2FOyAFqlOGgqdKJ0Jke/Rqij0=1/27/2024 7:54:37 PM1/27/2024 7:54:03 PM</TimeStamp>
+        <ID>
+          <String>Dim Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>/UCpysxRK2ELIauSKGbaX16BluQ=1/27/2024 9:07:45 PM1/27/2024 9:04:59 PMjIFTn6reUnp01lPnKZLip+hHWYc=1/27/2024 9:05:00 PM1/27/2024 9:04:59 PM</TimeStamp>
+        <ID>
+          <String>Sales</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -50,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2024-01-28T00:19:24.896667Z</LastDeployed>
+  <LastDeployed>2024-01-28T02:07:46.69Z</LastDeployed>
 </DeploymentSnapshot>

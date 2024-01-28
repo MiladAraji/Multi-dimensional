@@ -14,7 +14,37 @@
       <Dimension>
         <ID>Dim Date</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Customer</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Product</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Employee</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Shipper</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Supplier</ID>
+      </Dimension>
     </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Sales</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Orders</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Orders</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
       <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
